@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Write</title>
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="navItem">
+      <a href="#demo"> Demo <i class="fas fa-angle-down"></i> </a>
+      <a href="#docs"> Benutzung? <i class="fas fa-angle-down"></i> </a>
+      <a href="https://discord.gg/penguins"> Support <i class="fas fa-question"></i></a>
+    </div>
+    <div class="navGit">
+      <a target="_blank" href="https://github.com/suedpoldevelopement/autowrite" class="viewGit"><i class="fab fa-github"></i>
+        View
+        GitHub</a>
+    </div>
+  </nav>
+
+
+  <section id="demo" class="firstWrap">
+    <div class="secondWrap">
+      <div class="thirdWrap">
+        <div class="content">
+          <h2> <a id="intro" href="#docs"><i class="fas fa-edit"></i></a>
+            <b class="autoWriteBreak 100">Hallo du, Wie gehts?</b></h2>
+          <p> Beispiel <i class="fas fa-angle-right"></i>
+            <a id="intro1" href="#docs"><i class="fas fa-edit"></i></a>
+            <b class="autoWrite 100 500">
+              suedpol.xyz, suedpol.xyz2, baum
+            </b>
+          </p>
+          <p> Noch nen Beispiel <i class="fas fa-angle-right"></i>
+            <a id="intro2" href="#docs"><i class="fas fa-edit"></i></a>
+            <b class="autoWrite 200 800">
+              JavaScript ES6+, React.js (API), HTML5, CSS3, BootStrap5
+            </b>
+          </p>
+          <p> Programmier Sprachen <i class="fas fa-angle-right"></i>
+            <a id="intro3" href="#docs"><i class="fas fa-edit"></i></a>
+            <b class="autoWrite 250 1000">
+              Python, JavaScript, Swift
+            </b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section id="docs">
+    <a target="_blank" class="docsLink" href="dist/autoWrite.min.js">Download <i class="fas fa-download"></i> </a>
+    <a target="_blank" class="docsLink" href="https://github.com/suedpoldevelopement/autowrite" class="viewGit"> GItHub <i
+        class="fab fa-github"></i> </a>
+    <h1>Benutzung <i class="fas fa-question"></i></h1>
+    <p>
+      <b> <i>Wichtig!</i> Du musst davor das script einbinden file</b>
+      <span class="userSelect">
+        &lt;script src="autoWrite.min.js"&gt;&lt;/script&gt;
+      </span>
+    </p>
+    <p class="intro">
+      &lt;b class="typingEffect 50"&gt; Hallo du, Wie gehts ? &lt;/b&gt;
+      <a class="playZBreakWrite" href="#scnd">Benutzung ?</a>
+    </p>
+    <p class="intro1">
+      &lt;b class="autoWrite 100 500"&gt; Programmer, Designer &lt;/b&gt;
+      <a href="#frst">Benutzung ?</a>
+    </p>
+    <p class="intro2">
+      &lt;b class="autoWrite 200 800"&gt; JavaScript ES6+, React.js (API), HTML5, CSS3, BootStrap5 &lt;/b&gt;
+      <a href="#frst">Benutzung ?</a>
+    </p>
+    <p class="intro3">
+      &lt;b class="autoWrite 250 1000"&gt;
+      Python, JavaScript, Swift
+      &lt;/b&gt;
+      <a href="#frst">Benutzung ?</a>
+    </p>
+    <br><br>
+    <h1 id="frst">Guide <i class="fas fa-book"></i></h1>
+    <article class="explain">
+      Erklärung mit folgendem Code <i class="fas fa-angle-down"></i> <br>
+      <b class="highLight">&lt;b class="autoWrite 150 1000"&gt; Python, JavaScript, Swift &lt;/b&gt; </b>
+      <br>
+      <i class="fas fa-arrow-down"></i>
+      <br>
+      Result: <i class="fas fa-angle-right"></i>
+      <b class="autoWrite 150 1000">Python, JavaScript, Swift</b>
+      <br><br>
+      Wenn du dieses beispiel magst füge folgendes ein:
+      <b>[ autoWrite 450 1000 ]</b>
+      und den Text
+      <b>[ Python, JavaScript, Swift ]</b>
+      <br>
+      <p class="expln">
+        <b> <i class="fas fa-angle-right"></i>
+          <i>Wichtig!</i> [autoWrite]</b> Der erste Tag ist für das Importieren und Exportieren.
+      </p>
+      <p class="expln">
+        <b> <i class="fas fa-angle-right"></i>
+          <i>Wichtig!</i> [450]</b> Der 2 Tag Ist die Geschwindigkeit wie schnell der Text sich löscht und schreibt.
+        <br>
+      Du kannst jede Zeit nutzen ( 1000 MiliSekunden = 1 Sekunde )
+      </p>
+      <p class="expln">
+        <b> <i class="fas fa-angle-right"></i>
+          <i>Wichtig</i> [1000]</b> Der 3 Tag ist für die Zeit wenn das Wort zu ende ist.
+        <br>
+        Du kannst jede Zeit nutzen ( 1000 MiliSekunden = 1 Sekunde )
+      </p>
+      <p class="expln">
+        <i class="fas fa-angle-right"></i>
+        <i>Wichtig!</i> <b>[ Python, JavaScript, Swift ] </b>
+        Wörter für Autowrite
+        <br> Beispiel <i class="fas fa-arrow-down"></i> <br>
+        Animation: <b class="autoWrite 150 100"> Python, JavaScript, Swift </b>
+        <br><br>
+        <b>Wichtigt</b>
+        Ab 2 Wörtern muss ein <b>"," zwischen die Wörter</b> <br>
+        Beispiel: &lt;b class="autoWrite 150 1000"&gt;
+        Python<b class="highLight">,</b> JavaScript<b class="highLight">,</b> Swift &lt;/b&gt;
+      </p>
+    </article>
+    <br>
+    <article id="scnd" class="explain">
+      Erklärung mit HTML CODE <i class="fas fa-angle-down"></i>
+      <br>
+      <b class="highLight">
+        &lt;b class="autoWriteBreak 100"&gt; Willkommen auf meiner Website! &lt;/b&gt; </b>
+      <br>
+      <i class="fas fa-arrow-down"></i>
+      <br>
+      Ergebnis: <i class="fas fa-angle-right"></i>
+      <b class="autoWriteBreak 100"> Willkommen auf meiner Website! </b>
+      <br><br>
+      <p class="expln">
+        <b> <i class="fas fa-angle-right"></i>
+          <i>Wichtig!</i> [autoWriteBreak]</b> Wenn das Wort nur einmal erscheinen soll nutze diesen Tag.
+      </p>
+      <p class="expln">
+        <b> <i class="fas fa-angle-right"></i>
+          <i>Wichtig!</i> [100]</b> dieser 2 Tag ist für den Speed
+        <br>
+        Du kannst jede Zeit nutzen ( 1000 MiliSekunden = 1 Sekunde )
+      </p>
+    </article>
+  </section>
+
+  <section class="round">
+    <div class="round2">
+      <div class="round3">
+        <div class="round4">
+          <div class="round5">
+            <div class="round6">
+              <div class="round7"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+  <div class="fixedName autoWrite"></div>
+
+  <script src="dist/autoWrite.min.js"></script>
+  <script src="src/js/all.min.js"></script>
+  <script src="src/js/custom.js"></script>
